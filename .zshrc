@@ -131,6 +131,7 @@ export FZF_DEFAULT_OPTS=" \
 source ~/.config/fzf/fzf.zsh
 source $HOME/.cargo/env
 alias oo='cd /home/mrrobot/Documents/obsidian_note_taking' 
-if [ -f "/home/mrrobot/.config/fabric/fabric-bootstrap.inc" ]; then . "/home/mrrobot/.config/fabric/fabric-bootstrap.inc"; fi
 
 alias flg='flameshot gui'
+export PATH=/home/mrrobot/.local/bin:$PATH
+if [ -f "/home/mrrobot/.config/fabric/fabric-bootstrap.inc" ]; then . "/home/mrrobot/.config/fabric/fabric-bootstrap.inc"; fi
